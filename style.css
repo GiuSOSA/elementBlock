@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+}
+
+.top {
+    background-color: red;
+}
+
+.bottom {
+    background-color: white;
+}
+
+.top.bottom {
+    align-content: center;
+    align-items: center;
+}
