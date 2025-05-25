@@ -1,14 +1,25 @@
 body {
     background-color: lightgrey;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .top {
     background-color: red;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
 }
+
 
 .bottom {
     background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow: hidden;
+    text-align: justify;
+    display: block;
+    height: 255px;
 }
 
 .top,
@@ -16,4 +27,5 @@ body {
     text-align: center;
     margin: auto;
     width: 350px;
+    padding: 20px;
 }
