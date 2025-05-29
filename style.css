@@ -20,8 +20,6 @@ body {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     overflow: hidden;
-    text-align: justify;
-    display: block;
     height: auto;
 }
 
@@ -34,3 +32,10 @@ body {
 }
 
 
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 200px;
+    height: auto;
+}
