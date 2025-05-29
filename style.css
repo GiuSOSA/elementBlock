@@ -11,6 +11,9 @@ body {
     color: white;
 }
 
+.highlight {
+    background-color: yellow;
+}
 
 .bottom {
     background-color: white;
@@ -19,7 +22,7 @@ body {
     overflow: hidden;
     text-align: justify;
     display: block;
-    height: 255px;
+    height: auto;
 }
 
 .top,
@@ -29,3 +32,5 @@ body {
     width: 350px;
     padding: 20px;
 }
+
+
